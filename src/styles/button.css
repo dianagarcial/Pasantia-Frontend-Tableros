@@ -1,0 +1,121 @@
+@media screen and (min-width: 1025px) {
+    button.button-enviar{
+        background-color: #A60F1B;
+        color: #fff;
+        border-radius: 15px;
+        padding: 1.5%;
+        font-size: 1em;
+        width: 40%;
+        border: none;
+    
+    }
+    button.button-agregar{
+        background-color: #A60F1B;
+        color: #fff;
+        border-radius: 15px;
+        padding: 1.5%;
+        font-size: 1em;
+        width: 50%;
+        border: none;
+    
+    }
+    button.button-cancelar{
+        background-color: #978F8F;
+        color: #fff;
+        border-radius: 15px;
+        padding: 1.5%;
+        font-size: 1em;
+        width: 40%;
+        border: none;
+        margin-right: 3%;
+        
+    }
+}
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+    button.button-enviar{
+        background-color: #A60F1B;
+        color: #fff;
+        border-radius: 15px;
+        padding: 1.5%;
+        font-size: 1.5em;
+        width: 40%;
+        border: none;
+    
+    }
+    button.button-cancelar{
+        background-color: #978F8F;
+        color: #fff;
+        border-radius: 15px;
+        padding: 1.5%;
+        font-size: 1.5em;
+        width: 40%;
+        border: none;
+        margin-right: 3%;
+        
+    }
+}
+@media screen and (max-width: 480px){
+    button.button-enviar{
+        background-color: #A60F1B;
+        color: #fff;
+        border-radius: 10px;
+        padding: 3%;
+        font-size: 1em;
+        width: 50%;
+        border: none;
+    
+    }
+    button.button-cancelar{
+        background-color: #978F8F;
+        color: #fff;
+        border-radius: 10px;
+        padding: 3%;
+        font-size: 1em;
+        width: 50%;
+        border: none;
+        margin-right: 3%;
+        
+    }
+}
+button.button-cancelar:hover{
+    background-color: #fff;
+    color: #978F8F;
+    border: 3px solid #978F8F;
+
+}
+button.button-cancelar:active{
+    transform: scale(1);
+}
+button.button-enviar:active{
+    transform: scale(1);
+}
+
+button.button-enviar:hover{
+    background-color: #fff;
+    color: #A60F1B;
+    border: 3px solid #A60F1B;
+
+}
+
+
+.comboButton-conte {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.comboButton {
+    width: 94%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1%;
+}
+
+
+
+  

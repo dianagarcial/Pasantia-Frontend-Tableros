@@ -1,0 +1,406 @@
+@media screen and (max-width: 480px) {
+    .div-ul {
+        width: 100%;
+       padding: 5%;
+
+    }
+    .list-button{
+        background-color: #B73C46;
+        padding: 1%;
+        margin-bottom: 1%;
+        border-radius: 10px;
+        display: flex;
+    
+    }
+    .procedimiento {
+        background: #B73C46;
+        border-radius: 30px;
+        margin: auto;
+        width: 80%;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin-bottom: 2%;
+    }
+    .procedimiento:hover {
+        transform: scale(0.9);
+    }
+    
+    .procedimiento:hover {
+        transform: scale(0.9);
+    }
+    .procedimiento-g {
+        background: #8C8C8C;
+        border-radius: 30px;
+        margin: auto;
+        width: 80%;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin-bottom: 2%;
+    }
+    .procedimiento-g:hover {
+        transform: scale(0.9);
+    }
+    
+    .procedimiento-g:hover {
+        transform: scale(0.9);
+    }
+    .procedimiento2 {
+        background: #B73C46;
+        border-radius: 30px;
+        margin: auto;
+        width: 80%;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin-bottom: 2%;
+    }
+    .cajon-proce h2 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.8em;
+        line-height: 1.5em;
+        text-align: center;
+        color: #FAFAFA;
+    }
+
+    .cajon-proce-sac h2.ti-procedimiento{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.8em;
+        line-height: 1.5em;
+        text-align: center;
+        color: #B73C46;
+
+    }
+    img#logoProc {
+        width: 70px;
+        height: 70px;
+    }
+    .cajon-proce {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+        padding: 5%;
+        width: 100%;
+    }
+    .cajon-proce-sac {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column;
+        padding: 5%;
+        width: 100%;
+    }
+    .cajon-proce-h2 {
+        width: 65%;
+    }
+    
+    .cajon-proce-img {
+        width: 30%;
+    }    
+    button.list-button {
+        background-color: #B73C46;
+        
+        border-radius: 10px;
+        display: flex;
+        width: 100%;
+        border: none;
+    }
+}
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+    .div-ul {
+        width: 70%;
+        
+
+    }
+    .cajon-proce-h2 {
+        width: 70%;
+    }
+    .list-button{
+        background-color: #B73C46;
+        padding: 1%;
+        margin-bottom: 1%;
+        border-radius: 10px;
+        display: flex;
+    
+    }
+    .procedimiento {
+        background: #B73C46;
+        border-radius: 30px;
+        margin: auto;
+        width: 80%;
+        height: 10em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin-bottom: 2%;
+    }
+    .procedimiento:hover {
+        transform: scale(0.9);
+    }
+    
+    .procedimiento:hover {
+        transform: scale(0.9);
+    }
+    .procedimiento-g {
+        background: #8C8C8C;
+        border-radius: 30px;
+        margin: auto;
+        width: 80%;
+        height: 10em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin-bottom: 2%;
+    }
+    .procedimiento-g:hover {
+        transform: scale(0.9);
+    }
+    
+    .procedimiento-g:hover {
+        transform: scale(0.9);
+    }
+    .procedimiento2 {
+        background: #B73C46;
+        border-radius: 30px;
+        margin: auto;
+        width: 80%;
+        height: 25em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin-bottom: 2%;
+    }
+    .cajon-proce h2 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        text-align: center;
+        color: #FAFAFA;
+    }
+
+
+    .cajon-proce-sac h2.ti-procedimiento{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.2em;
+        line-height: 31px;
+        text-align: center;
+        color: #B73C46;
+
+    }
+    img#logoProc {
+        width: 80px;
+    height: 80px;
+    margin-bottom: 10%;
+    }
+    a#contenido-a {
+        text-decoration: none;
+        color: #FAFAFA;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+    .cajon-proce {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: row;
+        padding: 5%;
+        width: 100%;
+    }
+
+    .cajon-proce-sac {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    button.list-button {
+        background-color: #B73C46;
+        border-radius: 10px;
+        display: flex;
+        width: 100%;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .list-button{
+        background-color: #B73C46;
+        padding: 1%;
+        margin-bottom: 1%;
+        border-radius: 10px;
+        display: flex;
+    
+    }
+    .div-ul {
+        width: 70%;
+        padding-left: 5%;
+
+    }
+
+.procedimiento {
+    background: #B73C46;
+    border-radius: 30px;
+    margin: auto;
+    width: 22%;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: none;
+}
+.procedimiento:hover {
+    transform: scale(0.9);
+}
+
+.procedimiento:hover {
+    transform: scale(0.9);
+}
+.procedimiento:active{
+   
+}
+.procedimiento-g {
+    background: #8C8C8C;
+    border-radius: 30px;
+    margin: auto;
+    width: 22%;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: none;
+}
+.procedimiento-g:hover {
+    transform: scale(0.9);
+}
+
+.procedimiento-g:hover {
+    transform: scale(0.9);
+}
+.procedimiento:active{
+   
+}
+.procedimiento2 {
+    background: #B73C46;
+    border-radius: 30px;
+    margin: auto;
+    width: 30%;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: none;
+}
+.cajon-proce h2 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 31px;
+    text-align: center;
+    color: #FAFAFA;
+}
+.cajon-proce-sac h2.ti-procedimiento {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 31px;
+    text-align: center;
+    color: #B73C46;
+}
+img#logoProc {
+    width: 8em;
+}
+a#contenido-a {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    
+}
+
+
+
+.cajon-proce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.cajon-proce-sac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 30%;
+
+}
+button.list-button {
+    background-color: #B73C46;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    border: none;
+}
+}
+
+
+.cajon-proce img{
+    margin-bottom: 5%;
+}
+.contenido-a {
+    width: 95%;
+}
+.contenido-flecha {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.list-button-div {
+    display: flex;
+    width: 100%;
+}
+

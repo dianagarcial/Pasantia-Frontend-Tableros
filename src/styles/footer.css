@@ -1,0 +1,139 @@
+@media screen and (max-width: 480px) {
+
+    img#log-uao-foot {
+        display: none;
+    }
+
+    img#deco-foot {
+        display: none;
+    }
+
+    #h2-foot {
+
+        font-size: 0.8em;
+        text-align: right;
+        margin: 0;
+
+    }
+
+    #h1-foot {
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 2em;
+        text-align: right;
+        margin: 0;
+        color: #fafafa;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* img#log-uao-foot {
+            display: none;
+        } */
+    img#deco-foot {
+        display: none;
+    }
+
+    h2#h2-foot {
+
+        font-size: 0.8em;
+        text-align: right;
+        margin: 0;
+        line-height: 1.5em;
+
+    }
+
+    h1#h1-foot {
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 2em;
+        text-align: right;
+        margin: 0;
+        color: #fafafa;
+    }
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #595959;
+    display: flex;
+    height: auto;
+    left: 0;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.footer .contenido {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+
+}
+
+.footer .logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    h1#h1-foot {
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-align: right;
+        margin: 0;
+        color: #fafafa;
+    }
+
+    h2#h2-foot {
+
+
+        color: #fafafa;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        /* line-height: 1.5em; */
+        text-align: right;
+        margin: 0;
+        line-height: 2em;
+
+    }
+}
+
+.footer .texto {
+    margin: auto;
+}
+
+img#log-uao-foot {
+    height: 4em;
+    margin-left: 2em;
+    margin-right: 3%;
+}
+
+.contenido-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+img#deco-foot {
+    height: 8em;
+}

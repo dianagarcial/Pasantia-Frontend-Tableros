@@ -1,0 +1,53 @@
+
+.navlogin{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.shape {
+    width: 180px; 
+    height: 10px; 
+    border-right: 60px solid transparent;
+    border-top: 100px solid #A60F1B;
+    position: absolute;
+    z-index: 0;
+}
+
+.navlogin .contenedor{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo img{
+    width: 60%;
+   
+}
+
+.Logo {
+    /* margin-left: auto; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 850px) {
+    .Logo img {
+        width: 60%;
+       
+    }
+
+    .Logo {
+        /* margin-left: auto; */
+        margin: auto;
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+}

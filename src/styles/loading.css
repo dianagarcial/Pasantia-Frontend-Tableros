@@ -1,0 +1,24 @@
+.loading {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+svg.MuiCircularProgress-svg.css-1idz92c-MuiCircularProgress-svg {
+color: #C1121F;
+}
+img#logoload{
+    margin-bottom: 2em;
+}
+.css-eglki6-MuiLinearProgress-root {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 4px;
+    z-index: 0;
+    background-color: rgb(167, 202, 237);
+    width: 50%;
+}

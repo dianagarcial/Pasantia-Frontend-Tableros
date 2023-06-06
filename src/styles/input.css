@@ -1,0 +1,160 @@
+@media screen and (min-width: 1025px) {
+  .input-p {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 3%;
+    padding-left: 5%;
+    border: 1px #666666;
+
+  }
+
+  .input-pA {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 1.5%;
+    padding-left: 3%;
+    border: 1px #666666;
+  }
+
+  .div-input {
+    width: 50%;
+  }
+
+  .div-input-45 {
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+  .input-p {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 3%;
+    padding-left: 5%;
+    border: 1px #666666;
+  }
+
+  .input-pA {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 1.5%;
+    padding-left: 3%;
+    border: 1px #666666;
+  }
+
+  .div-input {
+    width: 50%;
+  }
+
+  .div-input-45 {
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .input-p {
+    width: 90%;
+    background: #FAFAFA;
+    border-radius: 10px;
+    color: #666666;
+    padding: 3%;
+    padding-left: 5%;
+    border: 1px #666666;
+  }
+
+  .input-pA {
+    width: 90%;
+    background: #FAFAFA;
+    border-radius: 10px;
+    color: #666666;
+    padding: 1.5%;
+    padding-left: 3%;
+    border: 1px #666666;
+  }
+
+  .div-input {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: flex-end;
+  }
+
+  .div-input-45 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: flex-end;
+
+  }
+}
+
+
+
+.div-input-50 {
+  width: 50%;
+}
+
+.input-p::placeholder {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1em;
+  color: #666666;
+  padding: 1%;
+}
+
+
+.input-p:focus {
+  outline: none;
+
+}
+
+.input-p:active {
+  background-color: #f8f9fa;
+}
+
+.input-pA::placeholder {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1em;
+  color: #666666;
+  padding: 1%;
+}
+
+
+.input-pA:focus {
+  outline: none;
+
+}
+
+.input-pA:active {
+  background-color: #f8f9fa;
+}
+select#plato {
+  width: 100%;
+  background: #FAFAFA;
+  border-radius: 20px;
+  color: #666666;
+  padding: 3%;
+  padding-left: 5%;
+  border: 1px #666666;
+}
+select:focus {
+  outline: none;
+
+}
+
+select :active {
+  background-color: #f8f9fa;
+}

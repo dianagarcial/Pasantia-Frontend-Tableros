@@ -1,0 +1,214 @@
+@media screen and (max-width: 480px) {
+    h2#contenido-a {
+        text-decoration: none;
+        color: #FAFAFA;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+    img#volver {
+        width: 2.5em;
+    }
+
+    .col-h1-principal h1 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 800;
+
+        font-size: 1.5em;
+        color: #000000;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 1em;
+    }
+
+    .col-principal {
+        display: flex;
+        /* flex-direction: column; */
+        margin-left: 3%;
+        padding: 1em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contenido-proced {
+        width: 74%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    a#contenido-a {
+        text-decoration: none;
+        color: #fafafa;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+
+    }
+    .col-principal {
+        display: flex;
+        /* flex-direction: column; */
+        margin-left: 5%;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+
+    h2#contenido-a {
+        text-decoration: none;
+        color: #FAFAFA;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    .procedimientos {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        overflow: hidden;
+        align-items: center;
+        min-height: 60vh;
+        justify-content: center;
+    }
+
+    .col-principal {
+        display: flex;
+        /* flex-direction: column; */
+        margin-left: 3%;
+        height: 8em;
+    }
+
+    .img#volver {
+        width: 3em;
+        height: 3em;
+    }
+
+    .col-h1-principal h1 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1em;
+        font-size: 2em;
+        color: #000000;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 1em;
+    }
+    .contenido-proced {
+        width: 74%;
+        margin: auto;
+    }
+    .col-principal {
+        display: flex;
+        /* flex-direction: column; */
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) {
+    h2#contenido-a {
+        text-decoration: none;
+        color: #FAFAFA;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    .procedimientos {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        overflow: hidden;
+        align-items: center;
+        min-height: 51vh;
+        justify-content: center;
+        margin-top: 2%;
+        margin-left: 11%;
+        margin-right: 11%;
+        margin-bottom: 2%;
+    }
+
+    .img#volver {
+        width: 3em;
+        height: 3em;
+    }
+
+    .col-h1-principal h1 {
+       
+
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.5em;
+            font-size: 1.5em;
+            color: #000000;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            padding: 1em;
+            width: 80%;
+    
+    }
+
+    .contenido-proced {
+        width: 50%;
+    }
+    .col-principal {
+        display: flex;
+        /* flex-direction: column; */
+        margin-left: 10%;
+    }
+
+}
+
+button#volver {
+    border: none;
+    background: none;
+    z-index: 2;
+}
+
+
+
+
+.col-h1-principal {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.link{
+    width: 2%;
+}
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+    margin-top: 2em;
+  }
+  
+  ul li {
+    padding-left: 2rem;
+    background-image: url(../../public/images/link.png);
+    background-position: 0;
+    background-size: 1.2rem 1.2rem;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  

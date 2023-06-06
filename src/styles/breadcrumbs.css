@@ -1,0 +1,118 @@
+
+@media screen and (min-width: 1025px) {
+    .bread {
+        display: flex;
+        margin-left: 11%;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .bread a {
+        text-decoration: none;
+        font-size: 1.2em;
+        color:#8C8C8C;
+        font-weight: 500;
+        
+    }
+    .bread a:hover {
+        color: #A60F1B;
+        
+    }
+    .bread h4 {
+        text-decoration: none;
+        font-size: 1.2em;
+        color:#595959;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+    }
+    .linea{
+        text-decoration: none;
+        font-size: 1.2em;
+        color:#8C8C8C;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    h4.sel{
+        text-decoration: none;
+        font-size: 1.2em;
+        color:#8C8C8C;
+        font-weight: 400;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+
+    }
+}
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+    .bread {
+        display: flex;
+        margin-left: 6%;
+        align-items: center;
+    }
+    .bread a {
+        text-decoration: none;
+        font-size: 1em;
+        color:#8C8C8C;
+        font-weight: 500;
+        
+    }
+    .bread h4 {
+        text-decoration: none;
+        font-size: 1em;
+        color:#8C8C8C;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+    }
+    h4.linea{
+        text-decoration: none;
+        font-size: 1em;
+        color:#8C8C8C;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+@media screen and (max-width: 480px){
+    .bread {
+        display: flex;
+        margin-left: 6%;
+        align-items: center;
+    }
+    .bread a {
+        text-decoration: none;
+        font-size: 0.8em;
+        color:#8C8C8C;
+        font-weight: 500;
+        
+    }
+    .bread h4 {
+        text-decoration: none;
+        font-size: 0.8em;
+        color:#8C8C8C;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+    }
+    h4.linea{
+        text-decoration: none;
+        font-size: 0.8em;
+        color:#8C8C8C;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+        line-height: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}

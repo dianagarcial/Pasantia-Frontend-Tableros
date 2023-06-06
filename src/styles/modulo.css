@@ -1,0 +1,194 @@
+@media screen and (min-width: 1025px) {
+    .modulo .celda h2 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.2em;
+        line-height: 41px;
+
+        color: #000000;
+    }
+
+    .modulo .titulo-bloque h2 {
+        margin: 0;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 52px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .modulo .celda {
+        background: rgba(217, 217, 217, 0.75);
+        border-radius: 0px 0px 25px 25px;
+        width: 92%;
+        margin: auto;
+        margin-top: 0;
+        padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+
+
+    }
+
+    .modulo .titulo-bloque {
+        background: rgba(166, 15, 27, 0.83);
+        border-radius: 25px 25px 0px 0px;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 0;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+    .modulo .celda h2 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2em;
+        color: #000000;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        line-height: 1.5em;
+    }
+
+    .modulo .titulo-bloque h2 {
+        margin: 0;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 52px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .modulo .celda {
+        background: rgba(217, 217, 217, 0.75);
+        border-radius: 0px 0px 25px 25px;
+        width: 92%;
+        margin: auto;
+        margin-top: 0;
+        padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+
+
+    }
+
+    .modulo .titulo-bloque {
+        background: rgba(166, 15, 27, 0.83);
+        border-radius: 25px 25px 0px 0px;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 0;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modulo .celda h2 {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.5em;
+
+        color: #000000;
+    }
+
+    .modulo .titulo-bloque h2 {
+        margin: 0;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 1.5em;
+        padding: 1em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .modulo .celda {
+        background: rgba(217, 217, 217, 0.75);
+        border-radius: 0px 0px 20px 20px;
+        width: 92%;
+        margin: auto;
+        margin-top: 0;
+        padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+
+
+    }
+
+    .modulo .titulo-bloque {
+        background: rgba(166, 15, 27, 0.83);
+        border-radius: 20px 20px 0px 0px;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 0;
+        padding: 1%;
+    }
+
+}
+
+.celda-modulo .form-modulo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+.modulo .cajon {
+    margin: 0;
+}
+
+
+
+
+.celda-modulo .form-modulo .titulo {
+    width: 40%;
+    text-align: left;
+    display: flex;
+    margin-left: 2%;
+}
+
+.celda-modulo .form-modulo .calif {
+    width: 30%;
+}
+
+.celda-modulo .form-modulo .observa {
+    width: 30%;
+}
+
+.celda-fom-modulo {
+    display: flex;
+    padding: 1%;
+}
+
+.form-modulo-contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+.modulo {
+    /*    
+        max-width: 1440px; */
+    margin: auto;
+    margin-bottom: 2%;
+
+}

@@ -1,0 +1,109 @@
+
+@media screen and (min-width: 1025px) {
+  .div-select select {
+    width: 90%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 3%;
+    border: 1px #666666;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+  }
+  .div-select-50 select {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 3%;
+    border: none;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+  }
+}
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+  .div-select select {
+    width: 90%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 3%;
+    border: 1px #666666;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+  }
+  .div-select-50 select {
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px;
+    color: #666666;
+    padding: 3%;
+    border: none;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+  }
+}
+@media screen and (max-width: 480px){
+  .div-select select {
+    width: 90%;
+    background: #FAFAFA;
+    border-radius: 10px;
+    color: #666666;
+    padding: 3%;
+    border: 1px #666666;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+  }
+  .div-select-50 select {
+    width: 90%;
+    background: #FAFAFA;
+    border-radius: 10px;
+    color: #666666;
+    padding: 3%;
+    border: none;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+  }
+}
+
+
+
+.div-select select:focus {
+  outline: none;
+
+}
+
+.div-select select:active {
+  background-color: #f8f9fa;
+}
+
+
+
+.div-select-50 select:focus {
+  outline: none;
+
+}
+
+.div-select-50 select:active {
+  background-color: #f8f9fa;
+}
+
+

@@ -1,0 +1,128 @@
+@media screen and (max-width: 480px){
+
+    #salir-h2 {
+        display: none;
+    }
+    }
+
+.NavBar1 {
+    left: 0;
+    background-color: #EEEEEE;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.NavBar1 .contenedor {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+}
+img#logo-n {
+    height: 5em;
+    padding: 1em;
+}
+
+img#cerrar {
+    height: 2em;
+}
+nav.contenedor-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+}
+
+.Enlaces {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Enlaces .cajon-nav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height: 5em;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+
+.cajon-nav div {
+    width: 100%;
+    transition: all ease-out 500ms;
+}
+
+.Enlaces a {
+    text-decoration: none;
+
+    text-align: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.Enlaces .cajon-nav div:hover {
+    transform: scale(1.1);
+}
+
+.sub-enlace {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+.sub-enlace-button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.sub-enlace-button img{
+    width: 5%;
+    height: 5%;
+}
+
+.btnMenu {
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+.box {
+    display: none;
+}
+
+button.btn-logout {
+    background: none;
+    padding: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+   
+}
+button.btn-logout h2 {
+    font-size: 1.2em;
+    margin: auto;
+    margin-left: 0.2em;
+    overflow: hidden;
+    color: #A60F1B;
+}
+
+
+    

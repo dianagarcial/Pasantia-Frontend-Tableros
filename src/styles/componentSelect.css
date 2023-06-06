@@ -1,0 +1,154 @@
+@media screen and (min-width: 1025px) {
+    .form-component-select-h3 h3 {
+        font-size: 1em;
+        padding: 0%;
+        margin-bottom: 0;
+        padding: 1%;
+
+    }
+
+    .form-component-select {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .form-component-select-sel select {
+        width: 60%;
+        background: #FAFAFA;
+        border-radius: 20px;
+        color: #666666;
+        padding: 1.5%;
+        border: none;
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1em;
+        color: #666666;
+
+    }
+    .component-select {
+        background: rgba(217, 217, 217, 0.51);
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px)and (min-width: 481px) {
+    .form-component-select-h3 h3 {
+        font-size: 1em;
+        padding: 0%;
+        margin-bottom: 0;
+    }
+
+    .form-component-select {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .form-component-select-sel select {
+        width: 60%;
+        background: #FAFAFA;
+        border-radius: 20px;
+        color: #666666;
+        padding: 1.5%;
+        border: none;
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1em;
+        color: #666666;
+
+    }
+    .component-select {
+        background: rgba(217, 217, 217, 0.51);
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-component-select-h3 h3 {
+        font-size: 1em;
+        padding: 0%;
+        margin-bottom: 0;
+        line-height: 2em;
+    }
+
+    .form-component-select {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .form-component-select-sel select {
+        width: 90%;
+    background: #FAFAFA;
+    border-radius: 10px;
+    color: #666666;
+    padding: 3%;
+    border: none;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #666666;
+
+    }
+    .component-select {
+        background: rgba(217, 217, 217, 0.51);
+        border-radius: 20px;
+    }
+}
+
+.div-component-select {
+    margin: 3%;
+    width: 94%;
+}
+
+
+
+.form-component-select-h3 {
+    width: 50%;
+}
+
+.form-component-select-sel {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.form-component-select-sel select:focus {
+    outline: none;
+
+}
+
+.form-component-select-sel select:active {
+    background-color: #f8f9fa;
+}
+.div-component-select-u {
+ 
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.div-component-select-u-n {
+ 
+    width: 94%;
+    margin-left: 3%;
+    
+}
+.div-component-select-r{
+
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+
+}
